@@ -4,25 +4,33 @@
     float: left;
     margin-top: 50px;
     padding: 20px;
+    background: rgb(94, 86, 86);
+    width: 100%;
+    color: white;
 
     }
 .nav-link {
     text-decoration: none;
-    color:black;
+    color: white;
     padding-right: 20px;
     
 }
 .nav-link:hover {
-    background: rgb(1, 32, 1);
+    background: rgb(221, 105, 144);
     color: white;
 }
 
-@media screen and (min-width: 500px) {
-    body {
-        background-color: lightgreen;
-    }
-    }
+body {
+    background: rgb(231, 227, 227);
+    margin: 200px 20% auto 5%;
+    
+}
 
 #main-doc {
-    margin-top: 200px;
+    margin-top: 200px 10% auto 20px;
+    padding-left: 30px;
+    
+}
+#footer {
+    text-align: center;
 }
